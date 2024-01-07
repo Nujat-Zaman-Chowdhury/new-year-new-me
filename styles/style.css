@@ -39,3 +39,46 @@ header {
   font-size: 20px;
   font-weight: 600;
 }
+    
+
+
+.section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 140px auto;
+  gap: 87px;
+}
+.person {
+  width: 569px;
+  height: 666.5px;
+}
+
+.section-title {
+  color: #151414;
+  font-size: 40px;
+  width: 288px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.checktext i{
+  color: #16D887;
+  margin-right: 10px;
+}
+.checktext h4 {
+  margin-bottom: 8px;
+  display: block;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  line-height: 26px;
+}
+
+.section-description {
+  width: 416px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}

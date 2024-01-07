@@ -7,8 +7,8 @@
 header {
   background-image: url("../images/banner/banner1.png");
   background-repeat: no-repeat;
-  width: 100wh;
-  height: 100vh;
+  /* width: 100wh; */
+  /* height: 100vh; */
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -44,6 +44,7 @@ main section {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #FFF;
 }
 
 .section-content {
@@ -79,7 +80,7 @@ main section {
   line-height: 26px;
 }
 .my-plans-section {
-  margin: 130px 300px;
+  margin: 0px 230px;
   text-align: center;
   /* background-color: #f15b22; */
   padding: 10px;
@@ -119,7 +120,7 @@ main section {
   width: 1090px;
   height: 260px;
   border-radius: 8px;
-  margin: 90px 230px;
+  margin: 130px 230px;
 }
 .watch-info {
   margin: 59px 620px 59px 64px;
@@ -143,9 +144,10 @@ main section {
 }
 footer {
   background: #151414;
-  width: 100wh;
-  height: 500px;
-  margin-top: 100px;
+    /* width: 100vw; */
+    height: 400px;
+    display: flex;
+    width: 100%;
 }
 
 .footer-column {

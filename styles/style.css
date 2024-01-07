@@ -39,8 +39,12 @@ header {
   font-size: 20px;
   font-weight: 600;
 }
-    
 
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .section-content {
   display: flex;
@@ -61,8 +65,8 @@ header {
   font-weight: 700;
   margin-bottom: 24px;
 }
-.checktext i{
-  color: #16D887;
+.checktext i {
+  color: #16d887;
   margin-right: 10px;
 }
 .checktext h4 {
@@ -74,11 +78,67 @@ header {
   margin-top: 16px;
   line-height: 26px;
 }
-
+.my-plans-section {
+  margin: 130px 300px;
+  text-align: center;
+  /* background-color: #f15b22; */
+  padding: 10px;
+}
+.my-plans-section-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+.plans-item-title {
+  color: #151414;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
 .section-description {
   width: 416px;
   color: #444343;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
+}
+.my-plans-section .plans-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 99px;
+}
+.watch {
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/watch.png") no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1090px;
+  height: 260px;
+  border-radius: 8px;
+  margin: 90px 230px;
+}
+.watch-info {
+margin: 59px 620px 59px 64px;
+}
+
+.watch-text {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  
+}
+.call-now {
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0px;
 }
